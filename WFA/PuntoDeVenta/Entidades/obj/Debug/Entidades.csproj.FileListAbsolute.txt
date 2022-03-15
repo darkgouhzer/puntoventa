@@ -1,0 +1,9 @@
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\bin\Debug\Entidades.dll
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\bin\Debug\Entidades.pdb
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\bin\Debug\Newtonsoft.Json.dll
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\bin\Debug\Newtonsoft.Json.xml
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\Entidades.dll
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\Entidades.pdb
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache

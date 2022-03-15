@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0b614482-e67b-486c-96d4-713aab8a7510": {
+      "ProjectGuid": "0b614482-e67b-486c-96d4-713aab8a7510",
+      "DisplayName": "PuntoDeVenta",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "7b7d97ae-7be3-48fe-9787-8910bb7503dc": {
+      "ProjectGuid": "7b7d97ae-7be3-48fe-9787-8910bb7503dc",
+      "DisplayName": "Entidades",
+      "ColorIndex": 1
+    },
+    "c43faed3-25c5-41d1-89da-a0a264261f34": {
+      "ProjectGuid": "c43faed3-25c5-41d1-89da-a0a264261f34",
+      "DisplayName": "Entidades",
+      "ColorIndex": 2
+    },
+    "99d3ff69-03c0-4a39-a9af-60a69117867e": {
+      "ProjectGuid": "99d3ff69-03c0-4a39-a9af-60a69117867e",
+      "DisplayName": "Servicios",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

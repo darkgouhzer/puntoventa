@@ -1,0 +1,9 @@
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\net48\Entidades.csproj.AssemblyReference.cache
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\net48\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\net48\Entidades.AssemblyInfoInputs.cache
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\net48\Entidades.AssemblyInfo.cs
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\net48\Entidades.csproj.CoreCompileInputs.cache
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\bin\Debug\net48\Entidades.dll
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\bin\Debug\net48\Entidades.pdb
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\net48\Entidades.dll
+C:\src\PuntoVenta\WFA\PuntoDeVenta\Entidades\obj\Debug\net48\Entidades.pdb
