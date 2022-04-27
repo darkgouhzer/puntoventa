@@ -96,16 +96,22 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Principal\Catalogos\Clientes\AltaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Catalogos\Clientes\AltaClientes.Designer.cs">
+      <DependentUpon>AltaClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal\Catalogos\Catalogo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Principal\Catalogos\Catalogo.Designer.cs">
       <DependentUpon>Catalogo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal\Catalogos\Clientes.cs">
+    <Compile Include="Principal\Catalogos\Clientes\Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal\Catalogos\Clientes.Designer.cs">
+    <Compile Include="Principal\Catalogos\Clientes\Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal\Catalogos\Productos\AltaProducto.cs">
@@ -163,6 +169,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Principal\Catalogos\Catalogo.resx">
       <DependentUpon>Catalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Catalogos\Clientes\AltaClientes.resx">
+      <DependentUpon>AltaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Catalogos\Clientes\Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal\Catalogos\Productos\AltaProducto.resx">
       <DependentUpon>AltaProducto.cs</DependentUpon>

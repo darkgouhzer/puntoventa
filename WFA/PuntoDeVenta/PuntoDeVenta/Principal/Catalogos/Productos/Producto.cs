@@ -1,5 +1,6 @@
 ﻿using Entidades;
 using Newtonsoft.Json;
+using Servicios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,18 +17,30 @@ namespace PuntoDeVenta.Principal.Catalogos.Productos
 {
     public partial class Producto : Form
     {
+        ProductoServices objProductosServices;
         public Producto()
         {
             InitializeComponent();
+            objProductosServices = new ProductoServices();
+            filtrarProductos();
         }
 
        
-        private void btnFiltrar_Click(object sender, EventArgs e)
+        private void BtnBuscar_Click(object sender, EventArgs e)
         {
-
+            filtrarProductos();
         }
 
-        private void btnAltas_Click(object sender, EventArgs e)
+        private async void filtrarProductos()
+        {
+            var response = await objProductosServices.productoByDescripcion(tbxDescripcion.Text);
+            dtgProductos.Rows.Clear();
+            foreach (CProducto producto in response.data)
+            {
+                dtgProductos.Rows.Add(producto.idproducto, producto.descripcion, 0, producto.precio_lista, producto.precio_mayoreo, producto.precio_lista, producto.precio_mayoreo);
+            }
+        }
+        private void BtnAltas_Click(object sender, EventArgs e)
         {
             AltaProducto altaProducto = new AltaProducto();            
             altaProducto.ShowDialog();
@@ -40,5 +53,6 @@ namespace PuntoDeVenta.Principal.Catalogos.Productos
                 this.Close();
             }
         }
+
     }
 }

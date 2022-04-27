@@ -49,5 +49,13 @@ namespace Servicios
 
             return data;
         }
+
+        public async Task<CResponseData<List<CProducto>>> productoByDescripcion(String sDescripcion)
+        {
+            var response = await clientService.client.GetStringAsync("producto/nombre/desc-" + sDescripcion);
+            var data = JsonConvert.DeserializeObject<CResponseData<List<CProducto>>>(response);
+
+            return data;
+        }
     }
 }
